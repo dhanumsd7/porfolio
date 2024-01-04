@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
+*{
+    background-color:#afbef4;
+}
+.bg{
+    display: flex;
+    margin-left: 2rem;
+}
+.head{
+    display: flex;
+}
+ 
+.head2{
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 23rem;
+    height: 7.8125rem;
+    flex-shrink: 0;
+}
+.black{
+    color: #2B2B2B;
+    margin-top: 4rem;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.white{
+    color: white;
+    margin-top: 4rem;
+    
+    font-family: Poppins;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.card{
+    display: flex;
+    height: 75rem;
+    width: 60rem;
+    background-color: rgb(241, 231, 231);
+    border-radius: 1.25rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    box-shadow: 1px 0px 45px 0px rgba(0, 0, 0, 0.10);
+    
+}
+
+.sidebar1{
+    height: 70rem;
+    width:15rem;
+    background-color: white;
+    border-radius: 1.25rem;
+}
+.center-part{
+    margin-top: 0.5rem;
+    background-color: rgb(231, 171, 171);
+}
+
+.top{
+    height: 25rem;
+    width:35rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+}
+.top1{
+    margin-top: 2rem;
+    height: 35rem;
+    width:35rem;
+    background-color: rgb(241, 231, 231);
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+}
+.sidebar2{
+    height: 70rem;
+    width:7rem;
+    margin-left: 1.5rem;
+    background-color: white;
+    border-radius: 1.25rem;
+}
+.dhanu{
+    width: 200px;
+    border-radius: 1.25rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile{
+    background-color: white;
+    color: #de6b6b;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    height: 2rem;
+
+}
+.professional{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    margin-top: 0.1775rem;
+}
+.icons1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1.5rem;
+    background-color: white;
+
+}
+i{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius:0.25rem;
+    /* background-color: FFB400; */
+    background-color: rgb(241, 231, 231);
+    font-size: 1.5rem;
+    padding: auto;
+    margin-left: 0.5rem;
+}
+.content{
+    margin-left: 1rem;
+    background-color: white;
+    
+}
+.brown{
+    background-color: #FFB400;
+}
+.right1{
+    background-color: white;
+    margin-left: 10rem;
+}
+.right2{
+    background-color: white;
+    
+}
+.right3{
+    background-color: white;
+    margin-left: 7.5rem;
+}
+.language{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+
+progress {
+    margin-top: 0rem;
+    margin-left: 1rem;
+    border: none;
+    width: 10rem;
+    height: 0.25rem;
+    background: crimson;
+    color: #FFB400;
+  }
+  progress::-webkit-progress-value {
+    background: #FFB400;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightcolor;
+  }
+
+.lang{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 0.90rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 1rem;
+    height: 1rem;
+    margin-bottom: 0.1rem;
+}
+.pb{
+    background-color: white;
+}
+ul{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 0.90rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    height: 1rem;
+}
+li{
+    background-color: white;
+}
+.center{
+    background-color: white;
+    text-align: left;  
+    color: #2B2B2B;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: normal; 
+    margin-left: 1rem;
+    border-radius: 1.25rem;
+}
+.brown-text{
+    background-color: white;
+    color: #FFB400;;
+}
+.top-text{
+    background-color: white;
+    font-size: 1rem;
+    font-family: Poppins;
+    margin-left: 1rem;
+}
+.box1{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.icons2{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    gap: 5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 2rem;
+    text-align: center;
+    background-color: white;
+}
+.center1{
+    background-color:rgb(241, 231, 231);
+    text-align: center;  
+    color: #2B2B2B;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: normal; 
+    margin-left: 1rem;
+    border-radius: 1.25rem;
+}
+.grid-container{
+    margin-top: 2rem;
+    background-color: rgb(241, 231, 231);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-left: 1rem;
+
+}
+.grid-item{
+    text-align: center;
+    font-family: poppins;
+    align-items: center;
+    padding-top: 3rem;
+    background-color: white;
+    width: 10rem;
+    height: 7rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service{
+    background-color: rgb(241, 231, 231);
+    font-family: poppins;
+    text-align: center;
+    font-size: 0.75rem;
+}
